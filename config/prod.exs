@@ -17,9 +17,6 @@ config :logger, level: :info
 # Configure blockchains network :testnet | :mainnet
 config :mintacoin, blockchains_network: :testnet
 
-# Home redirect url
-config :mintacoin, home_redirect_url: "https://docs.mintacoin.co/"
-
 # Stellar SDK configuration
 config :stellar_sdk, network: :test
 
